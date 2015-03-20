@@ -9,13 +9,16 @@ public class DivisorPattern {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Please provide two numbers, example: 5,5 ");
+        System.out.println("Please provide first number: ");
         //TODO write code to allow user to put in two numbers
         //they should be saved as two seperate integers: int x and int y
 
         //Call the method with integers:
+        int num1 = input.nextInt();
+        System.out.println("Please provide second number: ");
+        int num2 = input.nextInt();
 
-        Divisor(10,10);
+        Divisor(num1,num2);
 
 
     }
